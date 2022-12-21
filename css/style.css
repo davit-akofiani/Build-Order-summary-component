@@ -1,7 +1,51 @@
 body{
-    background-color: #F2F2F2;
+    background-color: #d6e1ff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+}
+.card {
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+/*  this is heading  */
+.title1 {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 48px;
+    text-align: center;
+    font-size: 28px;
+    color: #1F2E55;
+    line-height: 37px;
+}
+.title2 {
+    color:  #717FA6;
+
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    margin: 17px 48px 20px 48px;
+}
+/* this is price box */
+.price-box {
+    width: 354px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 11px;
+    background-color:  #183488;
+    
+}
+
+.price-anual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
 }
