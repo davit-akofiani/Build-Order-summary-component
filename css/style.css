@@ -43,6 +43,10 @@ body{
     background-color:  #F7F9FF;
     
 }
+.year {
+    font-weight: 500;
+    color: #717FA6;
+}
 
 .price-anual {
 
@@ -50,6 +54,11 @@ body{
     flex-direction: column;
     align-items: center;
     margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+
     
     
 
@@ -65,7 +74,34 @@ body{
     font-size: 14px;
     height: 19px;
     font-weight: 700px;
+    color: #382AE1;
     text-decoration-line: underline;
 
+
+}
+
+/* this is botton */
+.payment {
+    width: 80%;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    margin: 32px 48px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    color: #FFFFFF;
+    
+}
+.order {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #717FA6;
+    margin-bottom: 48px;
 
 }
